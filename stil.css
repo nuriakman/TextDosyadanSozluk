@@ -1,0 +1,17 @@
+body {
+  margin-top: 70px;
+}
+#ListeErkek {
+  background-color:#99ffff;
+}
+#ListeKIZ {
+  background-color:#ffccff;
+}
+#ListeUNISEKS {
+  background-color:#ccffcc;
+}
+#ListeErkek a,
+#ListeKIZ a,
+#ListeUNISEKS a {
+  width: 50px;
+}
