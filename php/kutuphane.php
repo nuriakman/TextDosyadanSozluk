@@ -34,6 +34,8 @@
   } // HarftenIsimleriListe
 
   function isimBol($SATIR) {
+    $SATIR = str_replace("Â", "A", $SATIR);
+    $SATIR = str_replace("Î", "İ", $SATIR);
     list($AD, $ANLAM1, $ANLAM2, $ANLAM3 ) = explode(":", $SATIR);
     $ANLAM = "$ANLAM1 $ANLAM2 $ANLAM3";
     $Erkek = strpos($ANLAM, " Er. ");
